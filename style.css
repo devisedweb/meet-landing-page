@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+
+  display: grid;
+  place-items: center;
+  height: 100svh;
+}
+
+header {
+  max-width: 30rem;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 5rem 0 5rem;
+}
+
+.logo {
+  width: 7.375rem;
+}
+
+main {
+  max-width: 30rem;
+  width: 100%;
+
+  padding: 4rem 2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero1 {
+  max-width: 19.063rem;
+}
+
+.combined-img {
+  display: flex;
+  justify-content: center;
+  gap: 1.063rem;
+  margin-bottom: 3rem;
+}
+
+.faces-left,
+.faces-right {
+  width: 100%;
+  max-width: 13.003rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 100%;
+  max-width: 19.438rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 110%;
+  text-align: center;
+  color: #28283d;
+}
+
+.main-desc {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+  color: #87879d;
+}
+
+.img-collage {
+  width: 9.219rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blue-btn {
+  background-color: #4d96a9;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 1.813rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 150%;
+  color: #ffff;
+}
+
+.version {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.v-color-1 {
+  color: #8fe3f9;
+}
+
+.purple-btn {
+  background-color: #855fb1;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 1.813rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 150%;
+  color: #ffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.image-collage {
+  width: 100%;
+  max-width: 19.438rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.frame {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-collage {
+  border-radius: 0.5rem;
+}
+
+.title p {
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 110%;
+  letter-spacing: 4px;
+  color: #4d96a9;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 110%;
+  color: #28283d;
+}
+
+.second-desc {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: #87879d;
+}
+
+footer {
+  max-width: 30rem;
+  width: 100%;
+  color: #ffff;
+}
+
+.footer-hero {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(77, 150, 169, 0.9) 0%,
+      rgba(77, 150, 169, 0.85) 100%
+    ),
+    url(./assets/mobile/image-footer.jpg);
+  padding: 4rem 2rem;
+
+  background-size: cover;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-content h2 {
+  font-size: 2rem;
+  font-family: 800;
+  line-height: 110%;
+  color: #ffff;
+}
+
+.footer-content p {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.second-purple-btn {
+  max-width: 12.063rem;
+}
+
+.v-color-2 {
+  color: #d9b8ff;
+}
