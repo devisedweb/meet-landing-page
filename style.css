@@ -228,3 +228,50 @@ footer {
 .v-color-2 {
   color: #d9b8ff;
 }
+
+@media only screen and (min-width: 768px) {
+  header,
+  main,
+  footer {
+    max-width: 48rem;
+    width: 100%;
+  }
+
+  .hero1 {
+    max-width: 48rem;
+  }
+
+  .faces-left,
+  .faces-right {
+    width: 100%;
+    max-width: 24.625rem;
+  }
+
+  .text-content {
+    max-width: 28.019rem;
+    margin: 0 auto;
+  }
+
+  .btns {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-content {
+    max-width: 48rem;
+  }
+
+  .image-collage {
+    max-width: 42rem;
+    flex-direction: row;
+  }
+
+  .text-content {
+    max-width: 31.5rem;
+  }
+
+  .footer-content {
+    max-width: 31.5rem;
+    margin: 0 auto;
+  }
+}
