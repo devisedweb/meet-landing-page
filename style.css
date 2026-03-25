@@ -247,7 +247,7 @@ footer {
     max-width: 24.625rem;
   }
 
-  .text-content {
+  .combined .text-content {
     max-width: 28.019rem;
     margin: 0 auto;
   }
@@ -266,12 +266,71 @@ footer {
     flex-direction: row;
   }
 
-  .text-content {
+  .content .text-content {
     max-width: 31.5rem;
+    margin: 0 auto;
+  }
+
+  .title h2 {
+    max-width: 25rem;
+    margin: 0 auto;
   }
 
   .footer-content {
     max-width: 31.5rem;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  header,
+  main,
+  footer {
+    max-width: none;
+    width: 100%;
+  }
+
+  .hero1 {
+    max-width: none;
+  }
+
+  .combined {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .combined-img {
+    display: contents;
+  }
+
+  .faces-right {
+    grid-column: 3 / 4;
+  }
+
+  .combined .text-content {
+    grid-row: 1;
+    grid-column: 2 / 3;
+  }
+
+  .content .text-content {
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+
+  .title h2 {
+    max-width: 22rem;
+    margin: 0 auto;
+  }
+
+  .footer-hero {
+    padding: 112px 80px;
+  }
+
+  .footer-content {
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
