@@ -208,7 +208,7 @@ footer {
 
 .footer-content h2 {
   font-size: 2rem;
-  font-family: 800;
+  font-weight: 800;
   line-height: 110%;
   color: #ffff;
 }
@@ -261,9 +261,14 @@ footer {
     max-width: 48rem;
   }
 
+  .frame {
+    display: contents;
+  }
+
   .image-collage {
     max-width: 42rem;
     flex-direction: row;
+    gap: 1.5rem;
   }
 
   .content .text-content {
@@ -298,6 +303,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    column-gap: 2rem;
   }
 
   .combined-img {
@@ -306,11 +312,26 @@ footer {
 
   .faces-right {
     grid-column: 3 / 4;
+    justify-self: flex-end;
   }
 
   .combined .text-content {
     grid-row: 1;
     grid-column: 2 / 3;
+  }
+
+  .main-content {
+    max-width: none;
+  }
+
+  .image-collage {
+    max-width: none;
+    gap: 2rem;
+  }
+
+  .img-collage {
+    width: 220px;
+    height: 220px;
   }
 
   .content .text-content {
@@ -331,6 +352,7 @@ footer {
     max-width: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4rem;
   }
 }
