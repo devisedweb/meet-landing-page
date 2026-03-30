@@ -221,10 +221,6 @@ footer {
   line-height: 150%;
 }
 
-.second-purple-btn {
-  max-width: 12.063rem;
-}
-
 .v-color-2 {
   color: #d9b8ff;
 }
@@ -295,6 +291,10 @@ footer {
     width: 100%;
   }
 
+  header {
+    padding: 5rem 5rem 0 5rem;
+  }
+
   .hero1 {
     max-width: none;
   }
@@ -318,6 +318,17 @@ footer {
   .combined .text-content {
     grid-row: 1;
     grid-column: 2 / 3;
+
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .main-desc {
+    font-size: 1.125rem;
   }
 
   .main-content {
@@ -337,11 +348,25 @@ footer {
   .content .text-content {
     max-width: 34rem;
     margin: 0 auto;
+
+    gap: 2rem;
+  }
+
+  .title p {
+    font-size: 1rem;
+    font-weight: 900;
   }
 
   .title h2 {
-    max-width: 22rem;
+    max-width: 28rem;
     margin: 0 auto;
+
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .second-desc {
+    font-size: 1.125rem;
   }
 
   .footer-hero {
@@ -354,5 +379,18 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 4rem;
+  }
+
+  .footer-content h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .footer-content p {
+    font-size: 1.125rem;
+  }
+
+  .second-purple-btn {
+    font-weight: 900;
   }
 }
