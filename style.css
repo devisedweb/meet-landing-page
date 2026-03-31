@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -6,12 +7,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Red Hat Display", sans-serif;
-
-  display: grid;
-  place-items: center;
-  height: 100svh;
 }
 
+/* Header Styles */
 header {
   max-width: 30rem;
   width: 100%;
@@ -23,6 +21,7 @@ header {
   width: 7.375rem;
 }
 
+/* Main Page Styles */
 main {
   max-width: 30rem;
   width: 100%;
@@ -37,6 +36,7 @@ article {
   gap: 4rem;
 }
 
+/* Hero Styles */
 .hero1 {
   max-width: 19.063rem;
 }
@@ -81,10 +81,7 @@ h1 {
   color: #87879d;
 }
 
-.img-collage {
-  width: 9.219rem;
-}
-
+/* Button Styles */
 .btns {
   display: flex;
   flex-direction: column;
@@ -126,6 +123,7 @@ h1 {
   color: #ffff;
 }
 
+/* Content Styles */
 .content {
   display: flex;
   flex-direction: column;
@@ -147,6 +145,7 @@ h1 {
 }
 
 .img-collage {
+  width: 9.219rem;
   border-radius: 0.5rem;
 }
 
@@ -180,6 +179,7 @@ h2 {
   color: #87879d;
 }
 
+/* Footer Styles */
 footer {
   max-width: 30rem;
   width: 100%;
@@ -225,6 +225,7 @@ footer {
   color: #d9b8ff;
 }
 
+/* Tablet Styles */
 @media only screen and (min-width: 768px) {
   header,
   main,
@@ -246,6 +247,11 @@ footer {
   .combined .text-content {
     max-width: 28.019rem;
     margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
   }
 
   .btns {
@@ -272,17 +278,39 @@ footer {
     margin: 0 auto;
   }
 
+  .title p {
+    font-size: 0.875rem;
+  }
+
   .title h2 {
+    font-size: 2.25rem;
     max-width: 25rem;
     margin: 0 auto;
+  }
+
+  .footer-hero {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(77, 150, 169, 0.9) 0%,
+        rgba(77, 150, 169, 0.85) 100%
+      ),
+      url(./assets/tablet/image-footer.jpg);
+
+    background-size: cover;
   }
 
   .footer-content {
     max-width: 31.5rem;
     margin: 0 auto;
   }
+
+  .footer-content h2 {
+    font-size: 2.25rem;
+  }
 }
 
+/* Desktop Styles */
 @media only screen and (min-width: 1440px) {
   header,
   main,
@@ -371,6 +399,15 @@ footer {
 
   .footer-hero {
     padding: 112px 80px;
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(77, 150, 169, 0.9) 0%,
+        rgba(77, 150, 169, 0.85) 100%
+      ),
+      url(./assets/desktop/image-footer.jpg);
+
+    background-size: cover;
   }
 
   .footer-content {
