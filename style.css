@@ -9,10 +9,15 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
-/* Header Styles */
-header {
+header,
+main,
+footer {
   max-width: 30rem;
   width: 100%;
+}
+
+/* Header Styles */
+header {
   text-align: center;
   padding: 3rem 5rem 0 5rem;
 }
@@ -23,9 +28,6 @@ header {
 
 /* Main Page Styles */
 main {
-  max-width: 30rem;
-  width: 100%;
-
   padding: 4rem 2rem;
 }
 
@@ -181,8 +183,6 @@ h2 {
 
 /* Footer Styles */
 footer {
-  max-width: 30rem;
-  width: 100%;
   color: #ffff;
 }
 
@@ -234,7 +234,8 @@ footer {
     width: 100%;
   }
 
-  .hero1 {
+  .hero1,
+  .main-content {
     max-width: 48rem;
   }
 
@@ -257,10 +258,6 @@ footer {
   .btns {
     flex-direction: row;
     justify-content: center;
-  }
-
-  .main-content {
-    max-width: 48rem;
   }
 
   .frame {
